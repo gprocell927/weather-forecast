@@ -1,8 +1,5 @@
 body {
     font-family: 'Neuton', serif;
-    border-top: 5px solid #FF2776;
-    border-left: 5px solid #FF2776;
-    border-right: 5px solid #FF2776;
     height: 100vh;
 }
 #container {
@@ -89,9 +86,6 @@ a {
 }
 .pinned-weather, .link {
     margin: 10px;
-}
-.glow {
-    animation: glow 1s infinite alternate;
 }
 #input-container, .cities {
    padding-top: 20px;
