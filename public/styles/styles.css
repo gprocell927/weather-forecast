@@ -1,8 +1,5 @@
 body {
     font-family: 'Neuton', serif;
-    border-top: 5px solid #FF2776;
-    border-left: 5px solid #FF2776;
-    border-right: 5px solid #FF2776;
     height: 100vh;
 }
 #container {
@@ -76,7 +73,6 @@ a {
     font-weight: bolder;
     padding: 5px;
     color: black;
-    border: 5px solid #2785FF;
     align-items: center;
 }
 .month-name, .month-date, .year, .temp-high, .temp-low {
@@ -89,9 +85,6 @@ a {
 }
 .pinned-weather, .link {
     margin: 10px;
-}
-.glow {
-    animation: glow 1s infinite alternate;
 }
 #input-container, .cities {
    padding-top: 20px;
