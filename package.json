@@ -38,7 +38,8 @@
     "eject": "react-scripts eject",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "deploy": "npm run build&&gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
