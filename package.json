@@ -43,5 +43,5 @@
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
   },
-  "homepage": "https://andrewlcrist.github.io/weather-forecast/"
+  "homepage": "https://gprocell927.github.io/weather-forecast/"
 }
